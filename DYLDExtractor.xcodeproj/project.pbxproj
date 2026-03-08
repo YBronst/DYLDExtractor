@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,30 @@
 		500BF71C2852EC360045808D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500BF7212852EC360045808D /* DYLDExtractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DYLDExtractor.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9D0FD12A2F5E20150045BFD3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Colorful,
+			);
+			target = 500BF7142852EC350045808D /* DYLDExtractor */;
+		};
+		9D0FD12B2F5E20150045BFD3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Extractor,
+			);
+			target = 500BF7142852EC350045808D /* DYLDExtractor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9D0FD11D2F5E20150045BFD3 /* DYLDExtractor */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DYLDExtractor; sourceTree = "<group>"; };
+		9D0FD1202F5E20150045BFD3 /* External */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9D0FD12A2F5E20150045BFD3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = External; sourceTree = "<group>"; };
+		9D0FD1222F5E20150045BFD3 /* Foundation */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9D0FD12B2F5E20150045BFD3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Foundation; sourceTree = "<group>"; };
+		9D0FD1242F5E20150045BFD3 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		500BF7122852EC350045808D /* Frameworks */ = {
@@ -41,6 +65,10 @@
 				500BF7172852EC350045808D /* DYLDExtractor */,
 				500BF7162852EC350045808D /* Products */,
 				5095FF972852F33100A67E3B /* Frameworks */,
+				9D0FD11D2F5E20150045BFD3 /* DYLDExtractor */,
+				9D0FD1202F5E20150045BFD3 /* External */,
+				9D0FD1222F5E20150045BFD3 /* Foundation */,
+				9D0FD1242F5E20150045BFD3 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +113,12 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9D0FD11D2F5E20150045BFD3 /* DYLDExtractor */,
+				9D0FD1202F5E20150045BFD3 /* External */,
+				9D0FD1222F5E20150045BFD3 /* Foundation */,
+				9D0FD1242F5E20150045BFD3 /* Resources */,
 			);
 			name = DYLDExtractor;
 			packageProductDependencies = (
