@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let homePage = URL(string: "https://github.com/Lakr233/DYLDExtractor") ?? URL(fileURLWithPath: "/")
+let homePage = URL(string: "https://github.com/YBronst/DYLDExtractor") ?? URL(fileURLWithPath: "/")
 
 @main
 struct ExtractorApp: App {
